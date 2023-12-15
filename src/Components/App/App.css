@@ -10,11 +10,11 @@ html {
 
 h1 {
   padding: .77rem 0;
-  background-color: #010c3f;
+  background-color: rgba(0, 0, 0, 0.966);
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.88rem;
-  color: #fff;
+  color: #ffff;
 }
 
 h1 .highlight {
@@ -29,10 +29,11 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-image: url('./jamming-backgroundimage.jpeg');
+  background: rgba(0, 0, 0, 0.5) url('./jamming-backgroundimage.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-blend-mode: darken;
   font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   color: #fff;
